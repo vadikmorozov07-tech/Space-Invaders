@@ -1,0 +1,24 @@
+# CMake
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# vcpkg generated files
+vcpkg_installed/
+
+# Visual Studio
+.vs/
+x64/
+*.slnx
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.VC.db
+
+# Build artifacts
+*.exe
+*.dll
+*.obj
+*.pdb
