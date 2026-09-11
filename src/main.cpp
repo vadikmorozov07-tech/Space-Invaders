@@ -9,11 +9,8 @@
 
 int main() {
 	srand(static_cast<unsigned>(time(nullptr)));
-
 	sf::Vector2u windowSize = { 1000, 1200 };
-	
 	sf::RenderWindow window(sf::VideoMode(windowSize), "Space Invaders");
-
 	const sf::Font font("assets/fonts/arial.ttf");
 
 	try {
