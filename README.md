@@ -1,12 +1,8 @@
 # Space-Invaders
 
-[svg](https://github.com/vadikmorozov07-tech/Space-Invaders#space-invaders)
-
 Классическая аркадная игра **Space Invaders**, разработанная на C++ с использованием графической библиотеки SFML.
 
 ## Описание проекта
-
-[svg](https://github.com/vadikmorozov07-tech/Space-Invaders#описание-проекта)
 
 Игрок управляет космическим кораблём, перемещается по игровому полю и уничтожает волны противников.
 
@@ -15,8 +11,6 @@
 Для победы необходимо пройти 10 волн противников.
 
 ## Основные возможности
-
-[svg](https://github.com/vadikmorozov07-tech/Space-Invaders#основные-возможности)
 
 * управление космическим кораблём;
 * стрельба игрока;
@@ -33,8 +27,6 @@
 
 ## Управление
 
-[svg](https://github.com/vadikmorozov07-tech/Space-Invaders#управление)
-
 | Клавиша | Действие                   |
 | ------- | -------------------------- |
 | `W`     | движение вверх             |
@@ -48,8 +40,6 @@
 
 ## Игровая механика
 
-[svg](https://github.com/vadikmorozov07-tech/Space-Invaders#игровая-механика)
-
 * За уничтожение противника игрок получает очки.
 * При попадании в игрока вражеским снарядом теряется жизнь.
 * За каждого противника, достигшего нижней границы игрового поля, теряется жизнь.
@@ -59,8 +49,6 @@
 
 ## Используемые технологии
 
-[svg](https://github.com/vadikmorozov07-tech/Space-Invaders#используемые-технологии)
-
 * C++
 * SFML 3.0.2
 * CMake
@@ -68,8 +56,6 @@
 * Visual Studio 2026
 
 ## Структура проекта
-
-[svg](https://github.com/vadikmorozov07-tech/Space-Invaders#структура-проекта)
 
 ```text
 Space-Invaders/
@@ -106,11 +92,7 @@ Space-Invaders/
     └── Отчёт.docx
 ```
 
-**svg**
-
 ## Архитектура проекта
-
-[svg](https://github.com/vadikmorozov07-tech/Space-Invaders#архитектура-проекта)
 
 Проект разделён на несколько основных классов:
 
@@ -124,8 +106,6 @@ Space-Invaders/
 
 ## Требования
 
-[svg](https://github.com/vadikmorozov07-tech/Space-Invaders#требования)
-
 Для сборки и запуска программы необходимы:
 
 * Windows;
@@ -135,8 +115,6 @@ Space-Invaders/
 
 ## Сборка и запуск
 
-[svg](https://github.com/vadikmorozov07-tech/Space-Invaders#сборка-и-запуск)
-
 Для сборки программы используется система **CMake**, а для управления внешними зависимостями — менеджер пакетов **vcpkg**. В проекте используется библиотека **SFML версии 3.0.2**.
 
 Сборка программы выполняется в операционной системе **Windows** с использованием **Visual Studio 2026**. Основные параметры сборки задаются в файлах `CMakeLists.txt` и `CMakePresets.json`.
@@ -145,37 +123,23 @@ Space-Invaders/
 
 ### 1. Конфигурация проекта
 
-[svg](https://github.com/vadikmorozov07-tech/Space-Invaders#1-конфигурация-проекта)
-
 ```powershell
 cmake --preset windows
 ```
 
-**svg**
-
 ### 2. Сборка программы
-
-[svg](https://github.com/vadikmorozov07-tech/Space-Invaders#2-сборка-программы)
 
 ```powershell
 cmake --build --preset windows-debug
 ```
 
-**svg**
-
 ### 3. Запуск программы
-
-[svg](https://github.com/vadikmorozov07-tech/Space-Invaders#3-запуск-программы)
 
 ```powershell
 .\build\Debug\SpaceInvaders.exe
 ```
 
-**svg**
-
 ## Документация
-
-[svg](https://github.com/vadikmorozov07-tech/Space-Invaders#документация)
 
 Дополнительные материалы по проекту находятся в папке:
 
@@ -183,13 +147,6 @@ cmake --build --preset windows-debug
 docs/
 ```
 
-В папке содержатся:
-
-* техническое задание;
-* отчёт по разработке проекта.
-
 ## Лицензия
-
-[svg](https://github.com/vadikmorozov07-tech/Space-Invaders#лицензия)
 
 Проект разработан в учебных целях.
