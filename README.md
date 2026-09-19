@@ -66,22 +66,8 @@ Space-Invaders/
 ├── vcpkg.json
 ├── assets/
 │   ├── fonts/
-│   │   ├── ARIALN.TTF
-│   │   ├── ARIALNB.TTF
-│   │   ├── ARIALNBI.TTF
-│   │   ├── ARIALNI.TTF
-│   │   ├── arial.ttf
-│   │   ├── arialbd.ttf
-│   │   ├── arialbi.ttf
-│   │   ├── ariali.ttf
-│   │   └── ariblk.ttf
 │   ├── formations/
-│   │   └── formations.txt
 │   └── textures/
-│       ├── background.png
-│       ├── bullet.png
-│       ├── enemy.png
-│       └── player.png
 ├── include/
 │   ├── Bullet.h
 │   ├── Enemy.h
