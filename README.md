@@ -66,7 +66,15 @@ Space-Invaders/
 ├── vcpkg.json
 ├── assets/
 │   ├── fonts/
-│   │   └── arial.ttf
+│   │   ├── ARIALN.TTF
+│   │   ├── ARIALNB.TTF
+│   │   ├── ARIALNBI.TTF
+│   │   ├── ARIALNI.TTF
+│   │   ├── arial.ttf
+│   │   ├── arialbd.ttf
+│   │   ├── arialbi.ttf
+│   │   ├── ariali.ttf
+│   │   └── ariblk.ttf
 │   ├── formations/
 │   │   └── formations.txt
 │   └── textures/
@@ -88,8 +96,7 @@ Space-Invaders/
 │   ├── Player.cpp
 │   └── main.cpp
 └── docs/
-    ├── Техническое задание.docx
-    └── Отчёт.docx
+    └── Отчёт_НИР_Space_Invaders.docx
 ```
 
 ## Архитектура проекта
